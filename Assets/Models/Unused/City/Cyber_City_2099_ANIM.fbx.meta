@@ -1,0 +1,574 @@
+fileFormatVersion: 2
+guid: e3d8c26862ac2d74284bc670f300bb8a
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -6097830026034491453
+    second: Animate_objets|Animate_objetsAction
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bridge_base
+    second: {fileID: 2100000, guid: 51b1980f2d9f0f54da847fe5e2deeeb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bridge_outline
+    second: {fileID: 2100000, guid: 728edca3566a96144b7d795b01c52eef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bridge_support
+    second: {fileID: 2100000, guid: eefa3a2335358e747a4efb6744bb8bc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buildings_0
+    second: {fileID: 2100000, guid: 11031f8d5b2dd7d4fa2f7fe0876dc403, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buildings_0_1
+    second: {fileID: 2100000, guid: 8215f1d5e83334b46aa8aaa1c48ad359, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buildings_0_top
+    second: {fileID: 2100000, guid: dafce34546cdc224e866b03e2c4686cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buildings_1
+    second: {fileID: 2100000, guid: 181370987064ffc48ad062916d7c686a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buildings_1_top
+    second: {fileID: 2100000, guid: f0c95e163cebf26468eaa60b6fd576c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buildings_2
+    second: {fileID: 2100000, guid: 5c2c53eaf7ea7544ea20f37015640cab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buildings_adds
+    second: {fileID: 2100000, guid: 3afb207bdfa6bfe46b371fac0557c7cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buildings_neon
+    second: {fileID: 2100000, guid: e42bfdb9c2192ff44930928763141aaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Holograms
+    second: {fileID: 2100000, guid: edbd632bb797f164facd0cb851d4aa7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HoverCars
+    second: {fileID: 2100000, guid: 59ea980e90731c6468bfea7176738d53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HoverCars_ilum blue
+    second: {fileID: 2100000, guid: 7a1df0eacf587b149b05cc0ed8174e2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HoverCars_ilum red
+    second: {fileID: 2100000, guid: bef2800feac431741ad0690d49b090f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Publicity_2D
+    second: {fileID: 2100000, guid: b963381ed5fc6a9458c713c64b10cbd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Publicity_lights
+    second: {fileID: 2100000, guid: 1ff6e02b72dad614482bf30ec98ffead, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Publicity_lights_outline
+    second: {fileID: 2100000, guid: b3bef42eaeb82e349b808863e1cd40af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Publicity_neon_blue
+    second: {fileID: 2100000, guid: 9538529bb7a9abb4eaf4d92f0c3974a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Publicity_neon_green
+    second: {fileID: 2100000, guid: 2da0d0e848a5f0b46ab216a1ad7da3a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Publicity_neon_orange
+    second: {fileID: 2100000, guid: bfb071efb403e7b4bb4760f4db329a41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Publicity_neon_pink
+    second: {fileID: 2100000, guid: d6edbdd5e0b3992419366a8672a39738, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Publicity_neon_red
+    second: {fileID: 2100000, guid: e2659472506b6d54dbdaf937ae78f5bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_dish
+    second: {fileID: 2100000, guid: ee692f79380e4924594b1f4fa4063976, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sidewalks
+    second: {fileID: 2100000, guid: e38f5e41bc91246418c36016752e489f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sidewalks_outline
+    second: {fileID: 2100000, guid: 05a8b8408c9aac245bfe3de707c3d6f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Solar_panel
+    second: {fileID: 2100000, guid: f56e81df1942e94408b19a8dc5aeabdb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Solar_panel_base
+    second: {fileID: 2100000, guid: 7f290875cd075d44d843a6cfe13100dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Streets
+    second: {fileID: 2100000, guid: 3d8a43346d8b1634b84d2f3b99b3903a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Streets_outline
+    second: {fileID: 2100000, guid: e3153e62c6f15bc4caa09339530dd099, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Terrain
+    second: {fileID: 2100000, guid: 014873e074344b44b9873f05d4f3ebc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Terrain_base
+    second: {fileID: 2100000, guid: 8dfcb3bf919753040995fa6d2ba71ed8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trash
+    second: {fileID: 2100000, guid: fa2c74c0a926ae84fbb2af63bed01489, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_ilum
+    second: {fileID: 2100000, guid: 7f1357322cdfa304a90fc7e2045289df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows_off
+    second: {fileID: 2100000, guid: 311e0e1b15ef7174f9c6afbfecbbf734, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lamppost
+    second: {fileID: 2100000, guid: 9421223359f266e46912865bb2fd6970, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Animate_objets|Animate_objetsAction
+      takeName: Animate_objets|Animate_objetsAction
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Cyber_City_2099_ANIM(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Animate_objets
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bone
+      parentName: Animate_objets
+      position: {x: -0.8349967, y: -0.9743928, z: 0.1762845}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_end
+      parentName: Bone
+      position: {x: -0, y: 0.16580206, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.002
+      parentName: Animate_objets
+      position: {x: 1.0999042, y: -0.2506688, z: 1.5385232}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.002_end
+      parentName: Bone.002
+      position: {x: -0, y: 0.165802, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.003
+      parentName: Animate_objets
+      position: {x: -3.3622181, y: -2.5650527, z: 1.0746092}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.003_end
+      parentName: Bone.003
+      position: {x: -0, y: 0.079584956, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.004
+      parentName: Animate_objets
+      position: {x: -2.033742, y: -0.7478751, z: 1.1868888}
+      rotation: {x: 0.055512972, y: -0.7049244, z: 0.7049243, w: 0.05551296}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.004_end
+      parentName: Bone.004
+      position: {x: -0, y: 0.079584956, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.005
+      parentName: Animate_objets
+      position: {x: 0.21408197, y: 1.0883462, z: 1.1868888}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.005_end
+      parentName: Bone.005
+      position: {x: -0, y: 0.079584956, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.006
+      parentName: Animate_objets
+      position: {x: 0.06362693, y: -1.0009071, z: 1.1868888}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.006_end
+      parentName: Bone.006
+      position: {x: -0, y: 0.079584956, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.007
+      parentName: Animate_objets
+      position: {x: 2.3674839, y: -2.403813, z: 1.0834228}
+      rotation: {x: 0.055512972, y: 0.7049244, z: -0.7049243, w: 0.05551296}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.007_end
+      parentName: Bone.007
+      position: {x: -0, y: 0.079584956, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.008
+      parentName: Animate_objets
+      position: {x: -1.4279493, y: 1.5563878, z: 1.0853521}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.008_end
+      parentName: Bone.008
+      position: {x: -0, y: 0.079584956, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hovercars
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: -336.01477, y: 108.89499, z: 256.5252}
+      rotation: {x: -0.50000006, y: 0.49999994, z: 0.49999997, w: 0.50000006}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Streets_outline
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: 513.2347, y: 0, z: 3394.0312}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 245360.69, y: 245360.69, z: 245360.69}
+    - name: Windows_off
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Publicity_neon_red
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Publicity_lights_outline
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Solar_panel
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Solar_panel_base
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Publicity_neon_orange
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: -68.14926, y: 57.238987, z: 81.57469}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Publicity_neon_blue
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Buildings_neon
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Buildings_1_top
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: 513.2347, y: 0, z: 3394.0312}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 245360.69, y: 245360.69, z: 245360.69}
+    - name: Publicity_2D
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Red_dish
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Publicity_neon_green
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: 203.05058, y: 69.608116, z: 189.46486}
+      rotation: {x: 0.27059793, y: 0.6532816, z: 0.6532814, w: -0.27059802}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Publicity_neon_pink
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: -175.82669, y: 53.373333, z: 93.20892}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Publicity_lights
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Lamppost
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Trash
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: -0, y: -1.8717808, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Windows_ilum
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Terrain
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: 10.638962, y: 0, z: -1.6155512}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 10638.297, y: 10638.297, z: 100}
+    - name: Buildings_1
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: 513.2347, y: 0, z: 3394.0312}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 245360.69, y: 245360.69, z: 245360.69}
+    - name: Buildings_0
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: 513.2347, y: 0, z: 3394.0312}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 245360.69, y: 245360.69, z: 245360.69}
+    - name: Bridge_outline
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: 513.2347, y: 0, z: 3394.0312}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 245360.69, y: 245360.69, z: 245360.69}
+    - name: Sidewalks_outline
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: 513.2347, y: 0, z: 3394.0312}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 245360.69, y: 245360.69, z: 245360.69}
+    - name: Bridge_support
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Buildings_adds
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Buildings_0_1
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: 513.2347, y: 0, z: 3394.0312}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 245360.69, y: 245360.69, z: 245360.69}
+    - name: Buildings_2
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: 513.2347, y: 0, z: 3394.0312}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 245360.69, y: 245360.69, z: 245360.69}
+    - name: Terrain_base
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: 10.638962, y: 0, z: -1.6155512}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 10638.297, y: 10638.297, z: 100}
+    - name: Bridge_base
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: 513.2347, y: 0, z: 3394.0312}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 245360.69, y: 245360.69, z: 245360.69}
+    - name: Buildings_0_top
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: 513.2347, y: 0, z: 3394.0312}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 245360.69, y: 245360.69, z: 245360.69}
+    - name: Sidewalks
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: 513.2347, y: 0, z: 3394.0312}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 245360.69, y: 245360.69, z: 245360.69}
+    - name: Streets
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: 513.2347, y: 0, z: 3394.0312}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 245360.69, y: 245360.69, z: 245360.69}
+    - name: Sun
+      parentName: Cyber_City_2099_ANIM(Clone)
+      position: {x: -4.0762453, y: 216.85194, z: -1.005454}
+      rotation: {x: -0.35353267, y: 0.3954311, z: -0.8229684, w: -0.20340079}
+      scale: {x: 100.00001, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

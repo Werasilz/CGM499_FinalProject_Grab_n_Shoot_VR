@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7070957631468805302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7070957631468805304}
+  - component: {fileID: 7070957631468805305}
+  - component: {fileID: 200722995}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7070957631468805304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7070957631468805302}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7070957631468805305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7070957631468805302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f146b25d344caa5408f486ca5bdbe119, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSpawner: {fileID: 7117921159132065695, guid: d472e12a2ee345e45aed55186043b143, type: 3}
+  AudioClips:
+  - shoot: {fileID: 8300000, guid: bf92ba939d7bbcb43bff8a62826e7e0a, type: 3}
+    reload: {fileID: 8300000, guid: eac12022577197b488ae2c9e1436d39a, type: 3}
+    noAmmo: {fileID: 8300000, guid: 9ad39241e61efad47a46a7f8830d38db, type: 3}
+    gunThrow: {fileID: 8300000, guid: c5849c2e6151f9944ba70f25aff8f45b, type: 3}
+    hitBody: {fileID: 8300000, guid: 3f57fe605c022e142a217304b31a9554, type: 3}
+    headShot: {fileID: 8300000, guid: 2d3e49f33892b424bbe2a87d61d57476, type: 3}
+    enemyDead1: {fileID: 8300000, guid: b9043631992a6f5478184849b6a8b69b, type: 3}
+    enemyDead2: {fileID: 8300000, guid: 46f0d696e296468428e932d6355d23ca, type: 3}
+    enemyDead3: {fileID: 8300000, guid: 2c1ea1972dce60d4590eef3c2db56a17, type: 3}
+    enemyDead4: {fileID: 8300000, guid: 3f0c4c963f540aa45b8f663d96fea854, type: 3}
+    enemyBomb: {fileID: 8300000, guid: 6ab88ac9a4f985744a8a3c91c7bb8ea3, type: 3}
+    bombFuse: {fileID: 8300000, guid: afcdf26c9be427b4bb20562e2a535f0a, type: 3}
+    hitEnvironment: {fileID: 8300000, guid: fdbb6a95efea7954db8d447430e8a083, type: 3}
+    bomb: {fileID: 8300000, guid: 6b7a0ed204d17714e889ea935f8beca5, type: 3}
+    gunDrop: {fileID: 8300000, guid: a38f4b154a75a7b44befd0abc87ad94f, type: 3}
+    playerHit: {fileID: 8300000, guid: ae1a83e86dc71d34d8a6fc0a50f2ab98, type: 3}
+    playerRegenerateHP: {fileID: 8300000, guid: 4eaae355861ee484e91ddb3f9c575c0b, type: 3}
+    upgrade: {fileID: 8300000, guid: 67c595af57c25954fa403017ad5fb092, type: 3}
+    getToken: {fileID: 8300000, guid: 0fc5a213aa6fed44aa4ef63e7da2e4f1, type: 3}
+    warning: {fileID: 8300000, guid: 40114093f10c1d743b269a5166d04022, type: 3}
+    waveStart: {fileID: 8300000, guid: 3422d566bd9d1b3408f4c5bea93664bd, type: 3}
+    handButton: {fileID: 8300000, guid: d01fe1a79b4abaf46af5483d7e83d6ed, type: 3}
+    clickButton: {fileID: 8300000, guid: 7d18edb895292cb449ea85ce0086cd66, type: 3}
+    peopleDead: {fileID: 8300000, guid: 703df362a307a564394ff4ae24dfd964, type: 3}
+    portalEnter: {fileID: 8300000, guid: 9cd0ebb626240f14fade8772dea680e3, type: 3}
+    peopleScary: {fileID: 8300000, guid: 75b5fd1b784810148a05251d004552c1, type: 3}
+    meteorFly: {fileID: 8300000, guid: 969271d0aec59444c824bc3ab514156a, type: 3}
+    meteorBigExplosion: {fileID: 8300000, guid: 5cf2760daebb57544a27e0fc8b55bb27, type: 3}
+    meteorSmallExplosion: {fileID: 8300000, guid: a0d158a6b722ad9428f3422d694bb9b2, type: 3}
+    meteorHit: {fileID: 8300000, guid: a4f4ca683c8ce1248ac2231f2c087e14, type: 3}
+    bossWalk: {fileID: 8300000, guid: 7d3e1395b31eb574a865e864a6c13e5a, type: 3}
+    bossRoar: {fileID: 8300000, guid: cf5409a7f430d6d4f8cdb2eafa6f65f5, type: 3}
+    bossThrow: {fileID: 8300000, guid: 9df966fd794fd164baf2d071c2585963, type: 3}
+    bossMeleeAttack: {fileID: 8300000, guid: 9df966fd794fd164baf2d071c2585963, type: 3}
+    bossCharge: {fileID: 0}
+    bossIdle: {fileID: 8300000, guid: a19a7135b9c69bd4384bb267e71f3c07, type: 3}
+    bossDead: {fileID: 8300000, guid: 9267e0ba908222244a532fa5dd40f955, type: 3}
+    bossMusicSound: {fileID: 8300000, guid: eb02d9191c14c0c4786166415c308bec, type: 3}
+  shootVol: 0.7
+  reloadVol: 1
+  noAmmoVol: 0.5
+  gunThrowVol: 0.7
+  hitBodyVol: 0.2
+  headShotVol: 1
+  enemyDead1Vol: 0.5
+  enemyDead2Vol: 0.5
+  enemyDead3Vol: 0.5
+  enemyDead4Vol: 0.5
+  enemyBombVol: 0.5
+  bombFuseVol: 0.5
+  hitEnvironmentVol: 1
+  bombVol: 1
+  gunDropVol: 0.3
+  playerHitVol: 1
+  playerRegenerateHPVol: 0.5
+  upgradeVol: 1
+  getTokenVol: 1
+  warningVol: 1
+  waveStartVol: 1
+  handButtonVol: 1
+  clickButtonVol: 1
+  peopleDeadVol: 0.5
+  portalEnterVol: 0.3
+  peopleScaryVol: 1
+  meteorFlyVol: 1
+  meteorBigExplosionVol: 1
+  meteorSmallExplosionVol: 0.4
+  meteorHitVol: 0.3
+  bossWalkVol: 0.7
+  bossRoarVol: 0.4
+  bossThrowVol: 0.4
+  bossMeleeAttackVol: 0.4
+  bossChargeVol: 1
+  bossIdleVol: 0.4
+  bossDeadVol: 1
+  bossMusicSoundVol: 0.3
+--- !u!114 &200722995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7070957631468805302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbca5d74cc225f348bc9485f7ff00925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMusic: {fileID: 0}

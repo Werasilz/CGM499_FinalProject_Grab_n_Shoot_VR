@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4574177968913866460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4574177968913866458}
+  - component: {fileID: 4574177968913866459}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4574177968913866458
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4574177968913866460}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4574177968913866459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4574177968913866460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da77ad7fc0b2d3a41af393b6b2f3b45b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxPlayerHealth: 0
+  requireHeadShot: 0
+  scorePoints: 0
+  tokenCoins: 0
+  prepareTime: 0
+  newWaveTime: 0
+  bossWarningTime: 0
+  minEnemyPerWave: 0
+  maxEnemyPerWave: 0
+  cooldownTime_default: 0
+  maxBullet_default: 0
+  gunRespondTime_default: 0
+  autoGunFireRate_default: 0
+  BombForce: 0
+  bombDamage: 0
+  enemyDamage_Normal: 0
+  enemyDamage_Explosion_Player: 0
+  enemyDamage_Explosion_People: 0
+  bossDamage_Melee: 0
+  damage_HeadShot: 0
+  damage_Body: 0
+  score_ThrowGun: 0
+  score_HeadShot: 0
+  score_BodyShot: 0
+  score_BossBodyShot: 0
+  score_PeopleShot: 0
+  People_minRandomRate: 0
+  People_maxRandomRate: 0
+  Enemy_minRandomRate: 0
+  Enemy_maxRandomRate: 0
+  max_Bullet: 0
+  max_Cooldown: 0
+  max_Health: 0
+  level: 0
+  playerHealth: 0
+  peopleOnField: 0
+  peopleEscape: 0
+  peopleDead: 0
+  waveCount: 0
+  enemyOnField: 0
+  infiniteBullet: 0
+  infiniteHealth: 0
+  autoGun: 0
+  clearEnemyOnField: 0
+  clearPeopleOnField: 0

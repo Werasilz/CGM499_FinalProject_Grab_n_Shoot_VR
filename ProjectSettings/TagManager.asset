@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Gun
+  - HandArea
+  - Enemy
+  - Bullet
+  - CriticalPoint
+  - SpawnGun
+  - WarpPoint
+  - People
+  - EnemyGroup
+  - PlayerArea
+  - PeopleGroup
+  - PeopleArea
+  - EnemyArea
+  - GunRoot
+  - MeleeItem
+  - PeopleDome
+  - Boss
+  - BossArea
+  - EnemyRoot
+  - PeopleRoot
+  - Meteor
+  - Bomb
+  - BombArea
+  - UpgradeButton
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Hands
+  - Water
+  - UI
+  - Grab
+  - Environment
+  - SpawnItem
+  - PlayerArea
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

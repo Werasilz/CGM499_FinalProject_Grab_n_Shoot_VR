@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1858659780293565055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1858659780293564993}
+  - component: {fileID: 1858659780293564992}
+  m_Layer: 0
+  m_Name: ReferenceManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1858659780293564993
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858659780293565055}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1858659780293564992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858659780293565055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71d2d8a2ad6c95a44a48fb857b2ef49c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  muzzleFlash: {fileID: 198000012944515248, guid: 66bfcba026379c041b0acd07f538300c, type: 3}
+  cartridgeEjection: {fileID: 3265884845778629567, guid: b9a44320a20ebe34e8b4c076a028de51, type: 3}
+  stoneEffect: {fileID: 191186, guid: e260e295fef45524b9f90200fad77d87, type: 3}
+  bulletShotEffect: {fileID: 1000010355441670, guid: 95122af63a58fe644a99698da103f146, type: 3}
+  headShotEffect: {fileID: 1407402442211574, guid: 8e5d1da14c2837443b75fa1a3dca6e9c, type: 3}
+  bloodEffect: {fileID: 1407402442211574, guid: b8483769fae801d4eaf485000aabccb4, type: 3}
+  explosionEffect: {fileID: 1000013462590818, guid: af317012e4f349a4e9fc78b61efce88b, type: 3}
+  explosionFire: {fileID: 191186, guid: 798a892adf86d644babf5ed76217c1a2, type: 3}
+  explosionSmallStone: {fileID: 191186, guid: ab05aede4e289ed4d93858302ee0ea27, type: 3}
+  energyPullEffect: {fileID: 1800972780968652, guid: d54755938557d1e4ea468a3a2d97234f, type: 3}
+  explosionBossEffect: {fileID: 191186, guid: a9d85a3cf5e550b459b08936bb6d8b7b, type: 3}
+  explosionMeteorEffect: {fileID: 191186, guid: 6686ba60eae3f594fbd101f182d8aad7, type: 3}
+  notificationText: {fileID: 0}
+  tokenText: {fileID: 0}
+  scorePtsText: {fileID: 0}
+  headshotFill: {fileID: 0}
+  scoreFill: {fileID: 0}
+  warningBar: {fileID: 0}
+  prepareBar: {fileID: 0}
+  skinGun:
+  - {fileID: 2100000, guid: c9246534ab3e775498057c987680a137, type: 2}
+  - {fileID: 2100000, guid: c3ecd4b93d1c1a64188e5f9b1dfae8dc, type: 2}
+  - {fileID: 2100000, guid: 849a1759d2c23e84783c49f5374b869a, type: 2}
+  bossMaterial:
+  - {fileID: 2100000, guid: 5f297e6ac209e4a499205a964e010217, type: 2}
+  - {fileID: 2100000, guid: 1e15e2749f2eca84c928ba3274f3aeb8, type: 2}
+  - {fileID: 2100000, guid: ede3281ad24d1b441807941fa14a06ac, type: 2}
